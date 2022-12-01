@@ -5,7 +5,11 @@
 
 ## Overview
 
-The Retropie minicade (not a) hat is pin compatible with the Pimoroni PiCade hat but missing a few features.
+### NOTE:
+
+This is a 4-layer PCB so in most PCB fabs, you will get merrily rogered for the privilege of those extra 2 layers. there is one fab that doesn't, this is not an advert so I'm not going to say which (unless you ask me) but if you've spent any time having PCB's made, you probably know which one it is.
+
+The Retropie minicade (not a) hat is for breaking out groups of pins for Retropie control panels and is pin compatible with the Pimoroni PiCade hat and some of the pin locations are oddly chosen for routing simplicity, nothing else, and there are a few missing a few features from the Pimoroni board:
 
 * No on board I2S DAC.
 * No smart switch integrated. Sorry.
@@ -16,6 +20,7 @@ The Retropie minicade (not a) hat is pin compatible with the Pimoroni PiCade hat
 All this means :
 
 * Smaller. This (not a) hat doesn't cover the CPU area so you can run heat sinks and fans
+* Simpler. you're in charge of your own destiny.
 * The I2S lines are broken out to use a DAC of your choosing such as a UDA1334 or even an external MAX decoder.
 * Chonky 5v in screw terminal for any kind of power supply
 * There's still Pi foundation compliant backpower protection
