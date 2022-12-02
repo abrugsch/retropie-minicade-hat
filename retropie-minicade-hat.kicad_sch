@@ -1988,7 +1988,7 @@
     (property "Reference" "C1" (id 0) (at 99.8839 135.328 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10uF" (id 1) (at 99.8839 138.1031 0)
+    (property "Value" "22uF" (id 1) (at 99.8839 138.1031 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 97.5598 136.2302 0)
@@ -2073,7 +2073,7 @@
     (property "Reference" "C2" (id 0) (at 70.1622 135.4547 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10uF" (id 1) (at 70.1622 138.2298 0)
+    (property "Value" "22uF" (id 1) (at 70.1622 138.2298 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 67.8381 136.3569 0)
@@ -2277,10 +2277,10 @@
       (reference "#PWR07") (unit 1) (value "GND") (footprint "")
     )
     (path "/0388b81b-7bfb-4a23-9444-5dbf72eb6a1d"
-      (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C1") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/3b43264c-4f36-4eb7-aaf5-1328e808310f"
-      (reference "C2") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C2") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005834bc4a"
       (reference "H1") (unit 1) (value "3mm_Mounting_Hole") (footprint "project_footprints:NPTH_3mm_ID")

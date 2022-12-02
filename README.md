@@ -33,7 +33,7 @@ All this means :
 J1 - 2x20 pin header socket  
 J2 - 5mm 2p screw terminal  
 J3,4,5,6,7,8 - 2.54mm pitch header pins or sockets, or leave bare for soldering directly. Your choice, I'm not your mum, do what you want.  
-C1,C2 - 10uF 0603 6.3v (or better) MLCC capacitor  
+C1,C2 - 22uF 0603 6.3v (or better) MLCC capacitor - low ESR  
 Q1 - DMG2305UX SOT-23 p-channel FET  
 Q2 - MMDT5401 dual PNP transistor SC-70-6  
 R1 - 10K 0603  
