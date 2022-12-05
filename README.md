@@ -46,9 +46,9 @@ C1,C2 = C86295
 J1 = C169819  
 Q1 = C150470  
 Q2 = C54540  
-R1 = C25804
-R2 = C25819
-U1 = C173386 (or a myriad of other LM1117-3.3 clones)
+R1 = C25804  
+R2 = C25819  
+U1 = C173386 (or a myriad of other LM1117-3.3 clones)  
 
 ## Gerbers
 
