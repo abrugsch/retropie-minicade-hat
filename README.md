@@ -5,12 +5,16 @@
 
 ## Overview
 
+Just a tarted up Raspberry pi GPIO breakout and grouping board aimed at making retropie control panels easier.. no party tricks except for 5v power input.
+
 ### NOTE:
 
-This is a 4-layer PCB so in most PCB fabs, you will get merrily rogered for the privilege of those extra 2 layers. there is one fab that doesn't, this is not an advert so I'm not going to say which (unless you ask me) but if you've spent any time having PCB's made, you probably know which one it is.
+This is a 4-layer PCB so in most PCB fabs, you will get merrily rogered for the privilege of those extra 2 layers. there is one fab that doesn't, this is not an advert so I'm not going to say which (unless you ask me) but if you've spent any time having PCB's made, you probably know which one it is.  
+
+### NOTE end
 
 The Retropie minicade (not a) hat is for breaking out groups of pins for Retropie control panels and is pin compatible with the Pimoroni PiCade hat and some of the pin locations are oddly chosen for routing simplicity, nothing else, and there are a few missing a few features from the Pimoroni board:
-
+  
 * No on board I2S DAC.
 * No smart switch integrated. Sorry.
 * No 'HAT' EEPROM. you'll have to configure the overlays youself.
@@ -46,9 +50,9 @@ C1,C2 = C86295
 J1 = C169819  
 Q1 = C150470  
 Q2 = C54540  
-R1 = C25804
-R2 = C25819
-U1 = C173386 (or a myriad of other LM1117-3.3 clones)
+R1 = C25804  
+R2 = C25819  
+U1 = C173386 (or a myriad of other LM1117-3.3 clones)  
 
 ## Gerbers
 
