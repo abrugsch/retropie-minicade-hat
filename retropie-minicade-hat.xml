@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\al\Documents\KiCad-6-projects\git\abrugsch\retropie-minicade-hat\retropie-minicade-hat.kicad_sch</source>
+    <date>05/12/2022 13:56:41</date>
+    <tool>Eeschema (6.0.1)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Raspberry Pi HAT</title>
+        <company/>
+        <rev>A</rev>
+        <date/>
+        <source>retropie-minicade-hat.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C86295</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C86295"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="retropie-minicade-hat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0388b81b-7bfb-4a23-9444-5dbf72eb6a1d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C86295</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C86295"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="retropie-minicade-hat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b43264c-4f36-4eb7-aaf5-1328e808310f</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>3mm_Mounting_Hole</value>
+      <footprint>project_footprints:NPTH_3mm_ID</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="retropie-minicade-hat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005834bc4a</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>3mm_Mounting_Hole</value>
+      <footprint>project_footprints:NPTH_3mm_ID</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="retropie-minicade-hat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005834bcdf</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>40HAT</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC Part #">C169819</field>
+      </fields>
+      <libsource lib="raspberrypi_hat" part="OX40HAT" description=""/>
+      <property name="LCSC Part #" value="C169819"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="retropie-minicade-hat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058dfc771</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <fields>
+        <field name="LCSC Part #">C8404</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC Part #" value="C8404"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="retropie-minicade-hat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>443629f4-0a2d-41a4-a71e-9e38e1d7d0bb</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x02_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="retropie-minicade-hat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>265ee3c7-64fd-410d-98ad-647bd91646d4</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_02x02_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="retropie-minicade-hat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>643e12dc-0aee-40d2-af28-3b74879d620a</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x08_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="retropie-minicade-hat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d47ebf6-9e3b-4e6c-b25b-c7d90bb5c9cd</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x08_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="retropie-minicade-hat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35d30085-edb0-4f16-ad89-187e5980f49d</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="retropie-minicade-hat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>306ce6b9-f963-4bef-a467-1f026a7c8ee3</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="retropie-minicade-hat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d477b005-312c-49d6-9daa-9d09f8b1b229</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMG2305UX</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="LCSC Part #">C150470</field>
+      </fields>
+      <libsource lib="raspberrypi_hat" part="DMG2305UX" description="Transistor P-MOSFET"/>
+      <property name="LCSC Part #" value="C150470"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="retropie-minicade-hat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058e14eb1</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>MMDT5401</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>http://www.diodes.com/_files/datasheets/ds30169.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C54540</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMDT5401" description="200mA IC, 160V Vce, Dual PNP/PNP Transistors, SOT-363"/>
+      <property name="LCSC Part #" value="C54540"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="retropie-minicade-hat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91d1019a-636c-457d-ad8f-da685ce6ba0f 4fe2d927-f6b5-4b25-baf3-fe0d2f580488</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part #" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="retropie-minicade-hat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058e15896</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>47K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C25819</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part #" value="C25819"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="retropie-minicade-hat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058e158a1</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AMS1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C173386</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="LCSC Part #" value="C173386"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="retropie-minicade-hat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73a7615d-c086-4c71-bc1d-5d26c31e8c5e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Male">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x02_Odd_Even">
+      <description>Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x02_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AMS1117-3.3">
+      <description>1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.advanced-monolithic.com/pdf/ds1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="MMDT5401">
+      <description>200mA IC, 160V Vce, Dual PNP/PNP Transistors, SOT-363</description>
+      <docs>http://www.diodes.com/_files/datasheets/ds30169.pdf</docs>
+      <footprints>
+        <fp>SOT?363*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMDT5401</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet">http://www.diodes.com/_files/datasheets/ds30169.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E1" type="passive"/>
+        <pin num="2" name="B1" type="input"/>
+        <pin num="3" name="C2" type="passive"/>
+        <pin num="4" name="E2" type="passive"/>
+        <pin num="5" name="B2" type="input"/>
+        <pin num="6" name="C1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="raspberrypi_hat" part="DMG2305UX">
+      <description>Transistor P-MOSFET</description>
+      <footprints>
+        <fp>SOT-23</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMG2305UX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="raspberrypi_hat" part="OX40HAT">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">OX40HAT</field>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P3V3" type="bidirectional"/>
+        <pin num="2" name="P5V" type="bidirectional"/>
+        <pin num="3" name="BCM2" type="bidirectional"/>
+        <pin num="4" name="P5V" type="bidirectional"/>
+        <pin num="5" name="BCM3" type="bidirectional"/>
+        <pin num="6" name="GND" type="bidirectional"/>
+        <pin num="7" name="BCM4" type="bidirectional"/>
+        <pin num="8" name="BCM14" type="bidirectional"/>
+        <pin num="9" name="GND" type="bidirectional"/>
+        <pin num="10" name="BCM15" type="bidirectional"/>
+        <pin num="11" name="BCM17" type="bidirectional"/>
+        <pin num="12" name="BCM18" type="bidirectional"/>
+        <pin num="13" name="BCM27" type="bidirectional"/>
+        <pin num="14" name="GND" type="bidirectional"/>
+        <pin num="15" name="BCM22" type="bidirectional"/>
+        <pin num="16" name="BCM23" type="bidirectional"/>
+        <pin num="17" name="P3V3" type="bidirectional"/>
+        <pin num="18" name="BCM24" type="bidirectional"/>
+        <pin num="19" name="BCM10" type="bidirectional"/>
+        <pin num="20" name="GND" type="bidirectional"/>
+        <pin num="21" name="BCM9" type="bidirectional"/>
+        <pin num="22" name="BCM25" type="bidirectional"/>
+        <pin num="23" name="BCM11" type="bidirectional"/>
+        <pin num="24" name="BCM8" type="bidirectional"/>
+        <pin num="25" name="GND" type="bidirectional"/>
+        <pin num="26" name="BCM7" type="bidirectional"/>
+        <pin num="27" name="BCM0" type="bidirectional"/>
+        <pin num="28" name="BCM1" type="bidirectional"/>
+        <pin num="29" name="BCM5" type="bidirectional"/>
+        <pin num="30" name="GND" type="bidirectional"/>
+        <pin num="31" name="BCM6" type="bidirectional"/>
+        <pin num="32" name="BCM12" type="bidirectional"/>
+        <pin num="33" name="BCM13" type="bidirectional"/>
+        <pin num="34" name="GND" type="bidirectional"/>
+        <pin num="35" name="BCM19" type="bidirectional"/>
+        <pin num="36" name="BCM16" type="bidirectional"/>
+        <pin num="37" name="BCM26" type="bidirectional"/>
+        <pin num="38" name="BCM20" type="bidirectional"/>
+        <pin num="39" name="GND" type="bidirectional"/>
+        <pin num="40" name="BCM21" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="raspberrypi_hat">
+      <uri>C:\Users\al\Documents\KiCad-6-projects\git\abrugsch\retropie-minicade-hat/raspberrypi_hat.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/BUTT_1">
+      <node ref="J1" pin="29" pinfunction="BCM5" pintype="bidirectional"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="2" name="/BUTT_2">
+      <node ref="J1" pin="23" pinfunction="BCM11" pintype="bidirectional"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="3" name="/BUTT_3">
+      <node ref="J1" pin="24" pinfunction="BCM8" pintype="bidirectional"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="4" name="/BUTT_4">
+      <node ref="J1" pin="22" pinfunction="BCM25" pintype="bidirectional"/>
+      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="5" name="/BUTT_5">
+      <node ref="J1" pin="21" pinfunction="BCM9" pintype="bidirectional"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="6" name="/BUTT_6">
+      <node ref="J1" pin="19" pinfunction="BCM10" pintype="bidirectional"/>
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="7" name="/COIN">
+      <node ref="J1" pin="16" pinfunction="BCM23" pintype="bidirectional"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="8" name="/ENTER">
+      <node ref="J1" pin="13" pinfunction="BCM27" pintype="bidirectional"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="9" name="/ESC">
+      <node ref="J1" pin="15" pinfunction="BCM22" pintype="bidirectional"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="10" name="/I2S_CLOCK">
+      <node ref="J1" pin="12" pinfunction="BCM18" pintype="bidirectional"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="11" name="/I2S_DATA">
+      <node ref="J1" pin="40" pinfunction="BCM21" pintype="bidirectional"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="12" name="/I2S_WS">
+      <node ref="J1" pin="35" pinfunction="BCM19" pintype="bidirectional"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="13" name="/ID_SC_EEPROM">
+      <node ref="J1" pin="28" pinfunction="BCM1" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/ID_SD_EEPROM">
+      <node ref="J1" pin="27" pinfunction="BCM0" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/JOY_DOWN">
+      <node ref="J1" pin="31" pinfunction="BCM6" pintype="bidirectional"/>
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="16" name="/JOY_LEFT">
+      <node ref="J1" pin="38" pinfunction="BCM20" pintype="bidirectional"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="17" name="/JOY_RIGHT">
+      <node ref="J1" pin="36" pinfunction="BCM16" pintype="bidirectional"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="18" name="/JOY_UP">
+      <node ref="J1" pin="32" pinfunction="BCM12" pintype="bidirectional"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="19" name="/P3V3_HAT">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="20" name="/P5V">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="E1" pintype="passive"/>
+    </net>
+    <net code="21" name="/P5V_HAT">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="P5V" pintype="bidirectional"/>
+      <node ref="J1" pin="4" pinfunction="P5V" pintype="bidirectional"/>
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="22" name="/PWR_BUTT">
+      <node ref="J1" pin="11" pinfunction="BCM17" pintype="bidirectional"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="23" name="/SHUTDOWN">
+      <node ref="J1" pin="7" pinfunction="BCM4" pintype="bidirectional"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="24" name="/SP_GPIO_2">
+      <node ref="J1" pin="3" pinfunction="BCM2" pintype="bidirectional"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="25" name="/SP_GPIO_3">
+      <node ref="J1" pin="5" pinfunction="BCM3" pintype="bidirectional"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="26" name="/SP_GPIO_7">
+      <node ref="J1" pin="26" pinfunction="BCM7" pintype="bidirectional"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="27" name="/SP_GPIO_13">
+      <node ref="J1" pin="33" pinfunction="BCM13" pintype="bidirectional"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="28" name="/SP_GPIO_14">
+      <node ref="J1" pin="8" pinfunction="BCM14" pintype="bidirectional"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="29" name="/SP_GPIO_15">
+      <node ref="J1" pin="10" pinfunction="BCM15" pintype="bidirectional"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="30" name="/SP_GPIO_26">
+      <node ref="J1" pin="37" pinfunction="BCM26" pintype="bidirectional"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="31" name="/START">
+      <node ref="J1" pin="18" pinfunction="BCM24" pintype="bidirectional"/>
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="32" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="J1" pin="20" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="J1" pin="25" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="J1" pin="30" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="J1" pin="34" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="J1" pin="39" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="J1" pin="6" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="J1" pin="9" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="33" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q2" pin="4" pinfunction="E2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2" pinfunction="B1" pintype="input"/>
+      <node ref="Q2" pin="5" pinfunction="B2" pintype="input"/>
+      <node ref="Q2" pin="6" pinfunction="C1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="unconnected-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="P3V3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(J1-Pad17)">
+      <node ref="J1" pin="17" pinfunction="P3V3" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

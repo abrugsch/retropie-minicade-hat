@@ -40,8 +40,16 @@ R1 - 10K 0603
 R2 - 47K 0603  
 U1 - AMS1117-3.3 SOT-223-3 (or any other SOT-223-3 fixed 3.3v regulator. whatever you can get from your supplier of choice)
 
-I might provide LCSC part numbers if I can be arsed...
+Here are some part numbers from lcsc.com if you are that way inclined. They are from within the JLC stock subset and basic parts wherever possible if you feel the need to have the factory assemble the boards for you.
+
+C1,C2 = C86295  
+J1 = C169819  
+Q1 = C150470  
+Q2 = C54540  
+R1 = C25804
+R2 = C25819
+U1 = C173386 (or a myriad of other LM1117-3.3 clones)
 
 ## Gerbers
 
-Are in the /prod folder. Have at it.
+Are in the /prod folder. Have at it. I haven't generated assembly files as it's not hard to hand solder. It's easy enough to generate them yourself if you need to.  
