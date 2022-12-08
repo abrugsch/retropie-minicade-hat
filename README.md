@@ -13,7 +13,7 @@ This is a 4-layer PCB so in most PCB fabs, you will get merrily rogered for the 
 
 ### NOTE end
 
-The Retropie minicade (not a) hat is for breaking out groups of pins for Retropie control panels and is pin compatible with the Pimoroni PiCade hat and some of the pin locations are oddly chosen for routing simplicity, nothing else, and there are a few missing a few features from the Pimoroni board:
+The Retropie minicade (not a) hat is for breaking out groups of pins for Retropie control panels and is pin compatible with the Pimoroni PiCade hat and some of the pin locations are oddly chosen for routing simplicity, nothing else, and there are a few missing features from the Pimoroni board:
   
 * No on board I2S DAC.
 * No smart switch integrated. Sorry.
@@ -30,6 +30,7 @@ All this means :
 * There's still Pi foundation compliant backpower protection
 * On-board 3.3v regulator for powering spicy 3.3v peripherals
 * H2G2 themed codename (following in the footsteps of my ZZ9 Plural Z Alpha board, this one is Hotblack Desiato - lead singer of the band *DISASTER AREA*)
+* Design is in KiCAD 6.0, not nightly so you can open it in the current stable release
 * Probably some other things I can't think of right now
 
 ## BOM
@@ -44,7 +45,7 @@ R1 - 10K 0603
 R2 - 47K 0603  
 U1 - AMS1117-3.3 SOT-223-3 (or any other SOT-223-3 fixed 3.3v regulator. whatever you can get from your supplier of choice)
 
-Here are some part numbers from lcsc.com if you are that way inclined. They are from within the JLC stock subset and basic parts wherever possible if you feel the need to have the factory assemble the boards for you.
+Here are some part numbers from lcsc.com if you are that way inclined. They are from within the JLC PCB assembly stock subset and are 'basic' parts wherever possible if you feel the need to have the factory assemble the boards for you.
 
 C1,C2 = C86295  
 J1 = C169819  
