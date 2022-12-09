@@ -57,4 +57,4 @@ U1 = C173386 (or a myriad of other LM1117-3.3 clones)
 
 ## Gerbers
 
-Are in the /prod folder. Have at it. I haven't generated assembly files as it's not hard to hand solder. It's easy enough to generate them yourself if you need to.  
+Are in the /prod folder for the 4-layer version and /2-Layer/prod folder for the 2-layer version. You probably don't need the 4-layer one, an entire layer for ground is probably overkill for this board, and 2nd signal layer is barely used but it's there if you want it. Have at it. I haven't generated assembly files as it's not hard to hand solder. It's easy enough to generate them yourself if you need to.  
