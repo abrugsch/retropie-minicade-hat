@@ -7,9 +7,9 @@
 
 Just a tarted up Raspberry pi GPIO breakout and grouping board aimed at making retropie control panels easier.. no party tricks except for 5v power input.
 
-### NOTE:
+### PCB layers NOTE:
 
-This is a 4-layer PCB so in most PCB fabs, you will get merrily rogered for the privilege of those extra 2 layers. there is one fab that doesn't, this is not an advert so I'm not going to say which (unless you ask me) but if you've spent any time having PCB's made, you probably know which one it is.  
+There are both 4-layer and 2-layer versions of this PCB so in most PCB fabs, you will get merrily rogered for the privilege of those extra 2 layers. There is one fab that doesn't, this is not an advert so I'm not going to say which (unless you ask me) but if you've spent any time having PCB's made, you probably know which one it is. If you want the 2 layer version then go ahead and get the gerbers from the /2-layer folder. If you want to load the 2 layer project into kicad, you still need to get the whole project as it uses the base project schematic as an internal hierarchical schematic sheet.  
 
 ### NOTE end
 
@@ -17,7 +17,7 @@ The Retropie minicade (not a) hat is for breaking out groups of pins for Retropi
   
 * No on board I2S DAC.
 * No smart switch integrated. Sorry.
-* No 'HAT' EEPROM. you'll have to configure the overlays youself.
+* No 'HAT' EEPROM. you'll have to configure the overlays youself. This is why it's not-a-hat.
 * No dedicated plasma port (not that hard to wire APA-102's yourself)
 * No pimoroni branding (you won't see it once it's all tucked away in your case anyway)  
 
